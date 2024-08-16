@@ -1,0 +1,26 @@
+{
+    "name": "Stride",
+    "description": "The Stride blockchain has a single purpose: to provide the best liquid staking service for chains in the Cosmos ecosystem. Stride protocol currently provides liquid staking for seven Cosmos chains, and has over 80% of Cosmos ecosystem liquid staking market share.\n\nWith Stride’s stTokens integrated into major DeFi apps across the Cosmos, a rapidly growing TVL, and more IBC traffic than almost any other Cosmos chain – the Stride blockchain has clearly achieved product market fit.\n\nStride’s top priority is security; it always has been and always will be. Like the Cosmos Hub, Stride is a highly secure minimalist blockchain, with no smart contracts and no other apps beside the core liquid staking protocol. The Stride codebase has been fully audited by numerous security firms, and receives continuous auditing from Informal Systems. And the Stride blockchain is protected by IBC rate-limiting.",
+    "chain_id": "stride-1",
+    "links": {
+        "logo": "https://framerusercontent.com/images/R4wM38AyUEbeplHVdkPCZlryb80.svg?scale-down-to=512",
+        "discord": "https://discord.neutron.org/",
+        "email": "",
+        "github": "https://github.com/cosmos/testnets/tree/master/interchain-security/pion-1",
+        "telegram": "https://t.me/neutron_community",
+        "twitter": "https://twitter.com/Neutron_org",
+        "website": "https://neutron.org/",
+        "whitepaper": "https://docs.neutron.org/"
+    },
+    "ics_settings": {
+        "validators_power_cap": 0.25,
+        "validators_set_cap": 40,
+        "allowlist": [],
+        "deylist": []
+    },
+    "widgets": [
+        {
+            "url": "hydro"
+        }
+    ]
+}
