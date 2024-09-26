@@ -1,26 +1,32 @@
 {
-    "name": "MySpace",
-    "description": "MySpace on the blockchain is a revolutionary social network that reimagines the way we connect, share, and engage online. By leveraging the power of blockchain technology, MySpace ensures a decentralized, secure, and transparent platform where users have full ownership and control over their data. Unlike traditional social networks that rely on centralized servers and can be vulnerable to data breaches or censorship, MySpace operates on a distributed ledger, providing an immutable and tamper-proof environment for social interactions.\n\nIn this new iteration of MySpace, users can create profiles, connect with friends, share content, and participate in communities, just as they would on any other social network. However, the integration of blockchain brings unique features that set it apart. Users can earn rewards for their engagement through a native cryptocurrency, encouraging active participation and fostering a more vibrant and supportive community. Additionally, all content shared on MySpace is stored on the blockchain, ensuring that users retain complete ownership and control over their posts, photos, and videos.\n\nPrivacy is at the core of MySpace's design. With blockchain's inherent security features, users can trust that their personal information is protected and that they have the ability to decide who can access their data. Smart contracts automate the management of permissions, giving users granular control over their privacy settings. Furthermore, the platform is resistant to censorship, as no single entity has the power to alter or remove content once it is recorded on the blockchain.\n\nOverall, MySpace on the blockchain is a forward-thinking social network that combines the nostalgic elements of the original MySpace with the cutting-edge advantages of decentralized technology. It offers a user-centric experience where individuals are empowered to take charge of their online presence in a secure, transparent, and reward-driven environment.",
-    "chain_id": "myspace-1",
-    "links": {
-        "logo": "https://docs.neutron.org/img/logo.jpeg",
-        "discord": "https://discord.neutron.org/",
-        "email": "",
-        "github": "https://github.com/cosmos/testnets/tree/master/interchain-security/pion-1",
-        "telegram": "https://t.me/neutron_community",
-        "twitter": "https://twitter.com/Neutron_org",
-        "website": "https://neutron.org/",
-        "whitepaper": "https://docs.neutron.org/"
-    },
-    "ics_settings": {
-        "validators_power_cap": 0.25,
-        "validators_set_cap": 40,
-        "allowlist": [],
-        "deylist": []
-    },
-    "widgets": [
-        {
-            "url": "hydro"
+    "init": {
+        "chain_id": "myspace-1",
+        "ics_settings": {
+            "validators_power_cap": 10,
+            "validator_set_cap": 100,
+            "allowlist": [],
+            "denylist": []
         }
-    ]
+    },
+    "display": {
+        "name": "MySpace",
+        "description": "MySpace is a decentralized social media platform built on the Cosmos ecosystem.",
+        "links": {
+            "logo": "https://example.com/myspace-logo.png",
+            "discord": "https://discord.gg/myspace",
+            "email": "contact@myspace.network",
+            "github": "https://github.com/myspace-network",
+            "telegram": "https://t.me/myspace",
+            "twitter": "https://twitter.com/myspace",
+            "website": "https://myspace.network",
+            "whitepaper": "https://myspace.network/whitepaper.pdf"
+        },
+        "widgets": [{
+                "url": "https://myspace.network/widget1"
+            },
+            {
+                "url": "https://myspace.network/widget2"
+            }
+        ]
+    }
 }
