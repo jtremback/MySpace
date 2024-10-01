@@ -1,6 +1,6 @@
 {
     "init": {
-        "chain_id": "stride-1",
+        "chain_id": "stride-2",
         "ics_settings": {
             "validators_power_cap": 7,
             "validator_set_cap": 100,
